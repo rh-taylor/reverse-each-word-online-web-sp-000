@@ -6,9 +6,3 @@ def reverse_each_word(string)
     word.reverse.join(" ")
   end
 end
-
-
-
-def test(sentence)
-  sentence.split.map {|word| word.reverse}.join(" ")
-end
