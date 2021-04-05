@@ -3,9 +3,12 @@ def reverse_each_word(string)
   array_to_string = []
   string_to_array = string.split(" ")
   string_to_array.each do |word|
-    
+    word.reverse.join(" ")
   end
 end
 
 
 
+def test(sentence)
+  sentence.split.map {|word| word.reverse}.join(" ")
+end
